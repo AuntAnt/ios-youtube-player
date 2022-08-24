@@ -13,6 +13,9 @@
 		9B7B3CD328B4D6EE00240914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7B3CD128B4D6EE00240914 /* Main.storyboard */; };
 		9B7B3CD528B4D6EF00240914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7B3CD428B4D6EF00240914 /* Assets.xcassets */; };
 		9B7B3CD828B4D6EF00240914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7B3CD628B4D6EF00240914 /* LaunchScreen.storyboard */; };
+		9B7B3CE028B5302500240914 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B3CDF28B5302500240914 /* Constants.swift */; };
+		9B7B3CE228B5325800240914 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B3CE128B5325800240914 /* Video.swift */; };
+		9B7B3CE428B532CA00240914 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B3CE328B532CA00240914 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9B7B3CD428B4D6EF00240914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7B3CD728B4D6EF00240914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B7B3CD928B4D6EF00240914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7B3CDF28B5302500240914 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9B7B3CE128B5325800240914 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		9B7B3CE328B532CA00240914 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				9B7B3CD428B4D6EF00240914 /* Assets.xcassets */,
 				9B7B3CD628B4D6EF00240914 /* LaunchScreen.storyboard */,
 				9B7B3CD928B4D6EF00240914 /* Info.plist */,
+				9B7B3CDF28B5302500240914 /* Constants.swift */,
+				9B7B3CE128B5325800240914 /* Video.swift */,
+				9B7B3CE328B532CA00240914 /* Model.swift */,
 			);
 			path = "ios-youtube-player";
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				9B7B3CD028B4D6EE00240914 /* ViewController.swift in Sources */,
 				9B7B3CCC28B4D6EE00240914 /* AppDelegate.swift in Sources */,
 				9B7B3CCE28B4D6EE00240914 /* SceneDelegate.swift in Sources */,
+				9B7B3CE428B532CA00240914 /* Model.swift in Sources */,
+				9B7B3CE028B5302500240914 /* Constants.swift in Sources */,
+				9B7B3CE228B5325800240914 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
