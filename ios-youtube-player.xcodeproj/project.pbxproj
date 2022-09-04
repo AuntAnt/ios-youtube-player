@@ -19,6 +19,7 @@
 		9B7B3CE628B6B13100240914 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B3CE528B6B13100240914 /* Response.swift */; };
 		9BEA299128C4E2840043F12D /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA299028C4E2840043F12D /* VideoTableViewCell.swift */; };
 		9BF71CCE28C5091E00072575 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF71CCD28C5091E00072575 /* CacheManager.swift */; };
+		9BF71CD028C5107700072575 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF71CCF28C5107700072575 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9B7B3CE528B6B13100240914 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		9BEA299028C4E2840043F12D /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		9BF71CCD28C5091E00072575 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		9BF71CCF28C5107700072575 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				9B7B3CCF28B4D6EE00240914 /* ViewController.swift */,
+				9BF71CCF28C5107700072575 /* DetailViewController.swift */,
 			);
 			path = "View Controlles";
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				9B7B3CE428B532CA00240914 /* Model.swift in Sources */,
 				9B7B3CE028B5302500240914 /* Constants.swift in Sources */,
 				9BEA299128C4E2840043F12D /* VideoTableViewCell.swift in Sources */,
+				9BF71CD028C5107700072575 /* DetailViewController.swift in Sources */,
 				9B7B3CE228B5325800240914 /* Video.swift in Sources */,
 				9B7B3CE628B6B13100240914 /* Response.swift in Sources */,
 			);

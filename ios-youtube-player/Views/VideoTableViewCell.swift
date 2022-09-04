@@ -9,7 +9,6 @@ import UIKit
 
 class VideoTableViewCell: UITableViewCell {
     
-    
     @IBOutlet weak var thumbnailImageView: UIImageView!
     
     @IBOutlet weak var titleLabel: UILabel!
@@ -43,7 +42,7 @@ class VideoTableViewCell: UITableViewCell {
         
         // Set the date label
         let df = DateFormatter()
-        df.dateFormat = "EEEE, MMM d, yyyy"
+        df.dateFormat = Constants.DATE_FORMAT
         self.dateLabel.text = df.string(from: video!.published)
         
         // Set the thumnail
